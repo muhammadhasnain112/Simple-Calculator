@@ -1,0 +1,65 @@
+.div{
+    height: 90vh;
+
+    width: 30vw !important;
+    border-radius: 7vh;
+    background-color: rgb(26, 25, 25);
+}
+.c{
+    width: 82% !important;
+    margin-left: 1.9vw;
+    
+    background-color: rgb(165, 10, 10) !important;
+}
+
+.div1{
+    height: 12vh !important;
+    margin-top: 5vh !important;
+    color: rgb(63, 63, 63);
+    font-size: 4vh;
+    padding: 20px;
+    border: none;
+    font-weight: bold;
+
+    /* position: absolute; */
+    top: 10vh;
+    margin-left: 10px !important;
+    width: 25vw !important;
+    border-radius: 10vh;
+
+}
+
+.btn{
+    height: 10vh;
+    width: 5vw;
+   
+    border-radius: 5vh !important;
+
+}
+
+.abc{
+    margin-left: 1.5vw;
+}
+
+
+@media(max-width:467px) {
+  .div{
+    width: 80vw !important;
+  }
+  .div1{
+    width: 60vw !important;
+  }
+  .btn{
+    width: 10vw !important;
+    
+  }
+  .div2{
+    margin-left: 20px !important;
+  }
+  .c{
+    width: 60vw !important;
+    margin-right: 50px !important;
+  }
+ 
+
+}
